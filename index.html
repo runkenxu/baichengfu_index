@@ -184,7 +184,7 @@
 <body>
 
 
-<div id="content">
+<div id="content" style="background-image:url('新建文件夹\top.jpg');">
 
     <span class="name-tag">顶好家居</span>
 
@@ -192,13 +192,13 @@
 
         <div class="qr-item-div">
             <div class="qr-item" >
-                <img src="qr-android.png">
+                <img src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2205936453,824698011&fm=26&gp=0.jpg">
             </div>
             <p class="qr-name">Android</p>
         </div>
         <div class="qr-item-div">
             <div class="qr-item" >
-                <img src="qr-ios.png">
+                <img src="https://bkimg.cdn.bcebos.com/pic/203fb80e7bec54e75b4e27ddb2389b504ec26a56?x-bce-process=image/watermark,g_7,image_d2F0ZXIvYmFpa2UxNTA=,xp_5,yp_5">
             </div>
             <p class="qr-name">iOS</p>
         </div>
@@ -236,17 +236,16 @@
                 tipImg.className = 'J-weixin-tip-img weixin-tip-img android'
             }
         } else {
-            alert("micromessenger else");
             var userAgent = navigator.userAgent || navigator.vendor || window.opera;
             if (/android/i.test(userAgent)) {
-                window.location.href = '/WM02/iSmarport.apk';
+                window.location.href = 'https://a.app.qq.com/o/simple.jsp?pkgname=com.szip.baichengfu';
 //			window.location.href = "https://play.google.com/store/apps/details?id=com.szip.sleepee";
 //			setTimeout(function(){
 //				window.location.href = '/SleepEE/sleepee.apk';
 //			},2000);
             }
             else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
-                window.location.href = "https://itunes.apple.com/app/id1516581028";
+                window.location.href = "https://itunes.apple.com/app/id1521316080";
             }
         }
 
